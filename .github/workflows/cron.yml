@@ -19,4 +19,4 @@ jobs:
       - name: install requirements
         run: pip install requests
       - name: run code
-        run: python3 run.py -u ${{ secrets.USERNANE }} -p ${{ secrets.PASSWORD }}
+        run: python3 run.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }}
