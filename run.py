@@ -1,6 +1,6 @@
 import argparse
 
-from utils import FreeNom
+from freenom import FreeNom
 
 # args
 parser = argparse.ArgumentParser()
