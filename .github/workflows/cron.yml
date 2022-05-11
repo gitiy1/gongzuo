@@ -13,4 +13,4 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: run code
-        run: python3 run.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }}
+        run: python3 run.py -u '${{ secrets.USERNAME }}' -p '${{ secrets.PASSWORD }}'
